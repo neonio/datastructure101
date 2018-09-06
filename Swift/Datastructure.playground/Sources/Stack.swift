@@ -2,7 +2,7 @@ import Foundation
 
 //: Stack 栈
 
-public struct Stack<T:Equatable&CustomDebugStringConvertible>:CustomDebugStringConvertible {
+public struct Stack<T:Comparable&CustomDebugStringConvertible>:CustomDebugStringConvertible {
     private var data: [T] = []
     
     public var size: Int {

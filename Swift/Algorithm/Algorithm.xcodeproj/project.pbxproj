@@ -15,6 +15,10 @@
 		29A7F89C213FABDB00A74907 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F899213FABDB00A74907 /* Queue.swift */; };
 		29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */; };
 		29A7F8A1213FAC2E00A74907 /* 203Remove Linked List Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */; };
+		29A7F8A3213FC44100A74907 /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F8A2213FC44100A74907 /* BST.swift */; };
+		29E1AB942140C352000C6F06 /* BSTSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB932140C352000C6F06 /* BSTSet.swift */; };
+		29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */; };
+		29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +43,10 @@
 		29A7F899213FABDB00A74907 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = ../../../Datastructure.playground/Sources/Queue.swift; sourceTree = "<group>"; };
 		29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20Valid Parentheses.swift"; sourceTree = "<group>"; };
 		29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203Remove Linked List Elements.swift"; sourceTree = "<group>"; };
+		29A7F8A2213FC44100A74907 /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		29E1AB932140C352000C6F06 /* BSTSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTSet.swift; sourceTree = "<group>"; };
+		29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "804Unique Morse Code Words.swift"; sourceTree = "<group>"; };
+		29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,9 @@
 				29A7F897213FABDB00A74907 /* Stack.swift */,
 				29A7F893213F9FF900A74907 /* LinkedList.swift */,
 				29A7F895213FABC200A74907 /* Utils.swift */,
+				29A7F8A2213FC44100A74907 /* BST.swift */,
+				29E1AB932140C352000C6F06 /* BSTSet.swift */,
+				29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */,
 			);
 			path = Datastructure;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 			children = (
 				29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */,
 				29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */,
+				29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -156,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E1AB942140C352000C6F06 /* BSTSet.swift in Sources */,
 				29A7F89B213FABDB00A74907 /* CircularQueue.swift in Sources */,
 				29A7F89C213FABDB00A74907 /* Queue.swift in Sources */,
 				29A7F8A1213FAC2E00A74907 /* 203Remove Linked List Elements.swift in Sources */,
@@ -163,7 +176,10 @@
 				29A7F894213F9FF900A74907 /* LinkedList.swift in Sources */,
 				29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */,
 				29A7F88C213F9FA600A74907 /* main.swift in Sources */,
+				29A7F8A3213FC44100A74907 /* BST.swift in Sources */,
+				29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */,
 				29A7F896213FABC200A74907 /* Utils.swift in Sources */,
+				29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
