@@ -11,6 +11,7 @@ import Foundation
 public enum FoundationError: Error{
     case overflow
     case dividzero
+    case cannotfindkey
 }
 
 public protocol Testable {

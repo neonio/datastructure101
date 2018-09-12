@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29186AB22148A7410098D027 /* BSTMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AB12148A7410098D027 /* BSTMap.swift */; };
+		29186AB42148C0CD0098D027 /* 349 Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AB32148C0CD0098D027 /* 349 Intersection of Two Arrays.swift */; };
+		29186AB62148C1EC0098D027 /* 350Intersection of Two Arrays II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AB52148C1EC0098D027 /* 350Intersection of Two Arrays II.swift */; };
+		29186AB82149108E0098D027 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AB72149108E0098D027 /* Heap.swift */; };
+		29186ABA2149446E0098D027 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AB92149446E0098D027 /* PriorityQueue.swift */; };
+		29186ABC214948C60098D027 /* 347 Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186ABB214948C60098D027 /* 347 Top K Frequent Elements.swift */; };
+		29186ABE21495AD80098D027 /* SegmentTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186ABD21495AD80098D027 /* SegmentTree.swift */; };
+		2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DE78214135B200D4F760 /* 86Partition List.swift */; };
+		2948DE7B2141408900D4F760 /* 71Simplify Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DE7A2141408900D4F760 /* 71Simplify Path.swift */; };
+		297462662147425B00E0482A /* LinkedListSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297462652147425B00E0482A /* LinkedListSet.swift */; };
+		297462682147431300E0482A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297462672147431300E0482A /* LinkedList.swift */; };
 		29A7F88C213F9FA600A74907 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F88B213F9FA600A74907 /* main.swift */; };
-		29A7F894213F9FF900A74907 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F893213F9FF900A74907 /* LinkedList.swift */; };
+		29A7F894213F9FF900A74907 /* LinkedListQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F893213F9FF900A74907 /* LinkedListQueue.swift */; };
 		29A7F896213FABC200A74907 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F895213FABC200A74907 /* Utils.swift */; };
 		29A7F89A213FABDB00A74907 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F897213FABDB00A74907 /* Stack.swift */; };
 		29A7F89B213FABDB00A74907 /* CircularQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F898213FABDB00A74907 /* CircularQueue.swift */; };
@@ -34,9 +45,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29186AB12148A7410098D027 /* BSTMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMap.swift; sourceTree = "<group>"; };
+		29186AB32148C0CD0098D027 /* 349 Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349 Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
+		29186AB52148C1EC0098D027 /* 350Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
+		29186AB72149108E0098D027 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		29186AB92149446E0098D027 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		29186ABB214948C60098D027 /* 347 Top K Frequent Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347 Top K Frequent Elements.swift"; sourceTree = "<group>"; };
+		29186ABD21495AD80098D027 /* SegmentTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTree.swift; sourceTree = "<group>"; };
+		2948DE78214135B200D4F760 /* 86Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86Partition List.swift"; sourceTree = "<group>"; };
+		2948DE7A2141408900D4F760 /* 71Simplify Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "71Simplify Path.swift"; sourceTree = "<group>"; };
+		297462652147425B00E0482A /* LinkedListSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListSet.swift; sourceTree = "<group>"; };
+		297462672147431300E0482A /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		29A7F888213F9FA600A74907 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A7F88B213F9FA600A74907 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		29A7F893213F9FF900A74907 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		29A7F893213F9FF900A74907 /* LinkedListQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListQueue.swift; sourceTree = "<group>"; };
 		29A7F895213FABC200A74907 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		29A7F897213FABDB00A74907 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = ../../../Datastructure.playground/Sources/Stack.swift; sourceTree = "<group>"; };
 		29A7F898213FABDB00A74907 /* CircularQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularQueue.swift; path = ../../../Datastructure.playground/Sources/CircularQueue.swift; sourceTree = "<group>"; };
@@ -92,11 +114,17 @@
 				29A7F898213FABDB00A74907 /* CircularQueue.swift */,
 				29A7F899213FABDB00A74907 /* Queue.swift */,
 				29A7F897213FABDB00A74907 /* Stack.swift */,
-				29A7F893213F9FF900A74907 /* LinkedList.swift */,
+				29A7F893213F9FF900A74907 /* LinkedListQueue.swift */,
 				29A7F895213FABC200A74907 /* Utils.swift */,
 				29A7F8A2213FC44100A74907 /* BST.swift */,
 				29E1AB932140C352000C6F06 /* BSTSet.swift */,
 				29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */,
+				297462652147425B00E0482A /* LinkedListSet.swift */,
+				297462672147431300E0482A /* LinkedList.swift */,
+				29186AB12148A7410098D027 /* BSTMap.swift */,
+				29186AB72149108E0098D027 /* Heap.swift */,
+				29186AB92149446E0098D027 /* PriorityQueue.swift */,
+				29186ABD21495AD80098D027 /* SegmentTree.swift */,
 			);
 			path = Datastructure;
 			sourceTree = "<group>";
@@ -107,6 +135,11 @@
 				29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */,
 				29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */,
 				29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */,
+				2948DE78214135B200D4F760 /* 86Partition List.swift */,
+				2948DE7A2141408900D4F760 /* 71Simplify Path.swift */,
+				29186AB32148C0CD0098D027 /* 349 Intersection of Two Arrays.swift */,
+				29186AB52148C1EC0098D027 /* 350Intersection of Two Arrays II.swift */,
+				29186ABB214948C60098D027 /* 347 Top K Frequent Elements.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -173,12 +206,23 @@
 				29A7F89C213FABDB00A74907 /* Queue.swift in Sources */,
 				29A7F8A1213FAC2E00A74907 /* 203Remove Linked List Elements.swift in Sources */,
 				29A7F89A213FABDB00A74907 /* Stack.swift in Sources */,
-				29A7F894213F9FF900A74907 /* LinkedList.swift in Sources */,
+				29186ABA2149446E0098D027 /* PriorityQueue.swift in Sources */,
+				29186AB42148C0CD0098D027 /* 349 Intersection of Two Arrays.swift in Sources */,
+				29186AB22148A7410098D027 /* BSTMap.swift in Sources */,
+				29A7F894213F9FF900A74907 /* LinkedListQueue.swift in Sources */,
+				297462662147425B00E0482A /* LinkedListSet.swift in Sources */,
 				29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */,
+				29186ABE21495AD80098D027 /* SegmentTree.swift in Sources */,
+				2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */,
+				29186AB82149108E0098D027 /* Heap.swift in Sources */,
 				29A7F88C213F9FA600A74907 /* main.swift in Sources */,
+				29186AB62148C1EC0098D027 /* 350Intersection of Two Arrays II.swift in Sources */,
 				29A7F8A3213FC44100A74907 /* BST.swift in Sources */,
+				2948DE7B2141408900D4F760 /* 71Simplify Path.swift in Sources */,
+				29186ABC214948C60098D027 /* 347 Top K Frequent Elements.swift in Sources */,
 				29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */,
 				29A7F896213FABC200A74907 /* Utils.swift in Sources */,
+				297462682147431300E0482A /* LinkedList.swift in Sources */,
 				29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

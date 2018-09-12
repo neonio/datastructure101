@@ -3,5 +3,6 @@
     <pages>
         <page name='20 Valid Parentheses'/>
         <page name='Main'/>
+        <page name='tet'/>
     </pages>
 </playground>
