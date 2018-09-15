@@ -14,8 +14,13 @@
 		29186ABA2149446E0098D027 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AB92149446E0098D027 /* PriorityQueue.swift */; };
 		29186ABC214948C60098D027 /* 347 Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186ABB214948C60098D027 /* 347 Top K Frequent Elements.swift */; };
 		29186ABE21495AD80098D027 /* SegmentTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186ABD21495AD80098D027 /* SegmentTree.swift */; };
+		29186AC0214969160098D027 /* 303  Range Sum Query - Immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186ABF214969160098D027 /* 303  Range Sum Query - Immutable.swift */; };
+		29186AC22149F5710098D027 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AC12149F5710098D027 /* Trie.swift */; };
+		29186AC4214A02B80098D027 /* 208. Implement Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AC3214A02B80098D027 /* 208. Implement Trie.swift */; };
 		2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DE78214135B200D4F760 /* 86Partition List.swift */; };
 		2948DE7B2141408900D4F760 /* 71Simplify Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DE7A2141408900D4F760 /* 71Simplify Path.swift */; };
+		29613726214CF4B900814106 /* RBTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29613725214CF4B900814106 /* RBTree.swift */; };
+		29613728214CFA1100814106 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29613727214CFA1100814106 /* AVLTree.swift */; };
 		297462662147425B00E0482A /* LinkedListSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297462652147425B00E0482A /* LinkedListSet.swift */; };
 		297462682147431300E0482A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297462672147431300E0482A /* LinkedList.swift */; };
 		29A7F88C213F9FA600A74907 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F88B213F9FA600A74907 /* main.swift */; };
@@ -27,9 +32,12 @@
 		29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */; };
 		29A7F8A1213FAC2E00A74907 /* 203Remove Linked List Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */; };
 		29A7F8A3213FC44100A74907 /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F8A2213FC44100A74907 /* BST.swift */; };
+		29CF97EB214D41A60087B12C /* AVLMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF97EA214D41A60087B12C /* AVLMap.swift */; };
+		29CF97ED214D5D9A0087B12C /* 387. First Unique Character in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF97EC214D5D9A0087B12C /* 387. First Unique Character in a String.swift */; };
 		29E1AB942140C352000C6F06 /* BSTSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB932140C352000C6F06 /* BSTSet.swift */; };
 		29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */; };
 		29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */; };
+		29F807BC214CB1A90023DABF /* Union.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F807BB214CB1A90023DABF /* Union.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,8 +60,13 @@
 		29186AB92149446E0098D027 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		29186ABB214948C60098D027 /* 347 Top K Frequent Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347 Top K Frequent Elements.swift"; sourceTree = "<group>"; };
 		29186ABD21495AD80098D027 /* SegmentTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTree.swift; sourceTree = "<group>"; };
+		29186ABF214969160098D027 /* 303  Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303  Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
+		29186AC12149F5710098D027 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		29186AC3214A02B80098D027 /* 208. Implement Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208. Implement Trie.swift"; sourceTree = "<group>"; };
 		2948DE78214135B200D4F760 /* 86Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86Partition List.swift"; sourceTree = "<group>"; };
 		2948DE7A2141408900D4F760 /* 71Simplify Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "71Simplify Path.swift"; sourceTree = "<group>"; };
+		29613725214CF4B900814106 /* RBTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTree.swift; sourceTree = "<group>"; };
+		29613727214CFA1100814106 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		297462652147425B00E0482A /* LinkedListSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListSet.swift; sourceTree = "<group>"; };
 		297462672147431300E0482A /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		29A7F888213F9FA600A74907 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,9 +79,12 @@
 		29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20Valid Parentheses.swift"; sourceTree = "<group>"; };
 		29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203Remove Linked List Elements.swift"; sourceTree = "<group>"; };
 		29A7F8A2213FC44100A74907 /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		29CF97EA214D41A60087B12C /* AVLMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLMap.swift; sourceTree = "<group>"; };
+		29CF97EC214D5D9A0087B12C /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
 		29E1AB932140C352000C6F06 /* BSTSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTSet.swift; sourceTree = "<group>"; };
 		29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "804Unique Morse Code Words.swift"; sourceTree = "<group>"; };
 		29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListMap.swift; sourceTree = "<group>"; };
+		29F807BB214CB1A90023DABF /* Union.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Union.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +141,11 @@
 				29186AB72149108E0098D027 /* Heap.swift */,
 				29186AB92149446E0098D027 /* PriorityQueue.swift */,
 				29186ABD21495AD80098D027 /* SegmentTree.swift */,
+				29186AC12149F5710098D027 /* Trie.swift */,
+				29F807BB214CB1A90023DABF /* Union.swift */,
+				29613725214CF4B900814106 /* RBTree.swift */,
+				29613727214CFA1100814106 /* AVLTree.swift */,
+				29CF97EA214D41A60087B12C /* AVLMap.swift */,
 			);
 			path = Datastructure;
 			sourceTree = "<group>";
@@ -140,6 +161,9 @@
 				29186AB32148C0CD0098D027 /* 349 Intersection of Two Arrays.swift */,
 				29186AB52148C1EC0098D027 /* 350Intersection of Two Arrays II.swift */,
 				29186ABB214948C60098D027 /* 347 Top K Frequent Elements.swift */,
+				29186ABF214969160098D027 /* 303  Range Sum Query - Immutable.swift */,
+				29186AC3214A02B80098D027 /* 208. Implement Trie.swift */,
+				29CF97EC214D5D9A0087B12C /* 387. First Unique Character in a String.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -202,15 +226,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				29E1AB942140C352000C6F06 /* BSTSet.swift in Sources */,
+				29613728214CFA1100814106 /* AVLTree.swift in Sources */,
 				29A7F89B213FABDB00A74907 /* CircularQueue.swift in Sources */,
 				29A7F89C213FABDB00A74907 /* Queue.swift in Sources */,
+				29613726214CF4B900814106 /* RBTree.swift in Sources */,
 				29A7F8A1213FAC2E00A74907 /* 203Remove Linked List Elements.swift in Sources */,
 				29A7F89A213FABDB00A74907 /* Stack.swift in Sources */,
+				29186AC22149F5710098D027 /* Trie.swift in Sources */,
+				29CF97ED214D5D9A0087B12C /* 387. First Unique Character in a String.swift in Sources */,
 				29186ABA2149446E0098D027 /* PriorityQueue.swift in Sources */,
 				29186AB42148C0CD0098D027 /* 349 Intersection of Two Arrays.swift in Sources */,
 				29186AB22148A7410098D027 /* BSTMap.swift in Sources */,
 				29A7F894213F9FF900A74907 /* LinkedListQueue.swift in Sources */,
 				297462662147425B00E0482A /* LinkedListSet.swift in Sources */,
+				29F807BC214CB1A90023DABF /* Union.swift in Sources */,
 				29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */,
 				29186ABE21495AD80098D027 /* SegmentTree.swift in Sources */,
 				2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */,
@@ -221,9 +250,12 @@
 				2948DE7B2141408900D4F760 /* 71Simplify Path.swift in Sources */,
 				29186ABC214948C60098D027 /* 347 Top K Frequent Elements.swift in Sources */,
 				29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */,
+				29186AC0214969160098D027 /* 303  Range Sum Query - Immutable.swift in Sources */,
 				29A7F896213FABC200A74907 /* Utils.swift in Sources */,
+				29CF97EB214D41A60087B12C /* AVLMap.swift in Sources */,
 				297462682147431300E0482A /* LinkedList.swift in Sources */,
 				29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */,
+				29186AC4214A02B80098D027 /* 208. Implement Trie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

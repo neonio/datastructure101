@@ -7,15 +7,15 @@
 //
 
 import Foundation
-class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConvertible {
-    var debugDescription: String{
+class BST<T: Comparable & CustomDebugStringConvertible>: CustomDebugStringConvertible {
+    var debugDescription: String {
         return ""
     }
     
     var root: Node?
     var size: Int = 0
     
-    func isEmpty() -> Bool{
+    func isEmpty() -> Bool {
         return size == 0
     }
     
@@ -24,37 +24,37 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
     }
     
     // 返回新插入节点后二叉树的根
-    private func add(rootNode:Node?, value:T) -> Node {
+    private func add(rootNode: Node?, value: T) -> Node {
         if let rootNode = rootNode {
             if value < rootNode.data {
                 rootNode.left = add(rootNode: rootNode.left, value: value)
-            }else if value > rootNode.data {
+            } else if value > rootNode.data {
                 rootNode.right = add(rootNode: rootNode.right, value: value)
             }
             // if value == rootNode.data pass
             return rootNode
-        }else{
+        } else {
             size += 1
             return Node(value)
         }
     }
     
-    func contains(value: T) -> Bool{
+    func contains(value: T) -> Bool {
         return contains(rootNode: root, value: value)
     }
     
-    private func contains(rootNode: Node?, value: T) -> Bool{
+    private func contains(rootNode: Node?, value: T) -> Bool {
         if let rootNode = rootNode {
             if value == rootNode.data {
                 return true
-            }else{
+            } else {
                 if value < rootNode.data {
                     return contains(rootNode: rootNode.left, value: value)
-                }else{
+                } else {
                     return contains(rootNode: rootNode.right, value: value)
                 }
             }
-        }else{
+        } else {
             return false
         }
     }
@@ -63,13 +63,14 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
         preOrder(rootNode: root)
     }
     
-    private func preOrder(rootNode: Node?){
-        if let rootNode = rootNode{
+    private func preOrder(rootNode: Node?) {
+        if let rootNode = rootNode {
             print(rootNode.data)
             preOrder(rootNode: rootNode.left)
             preOrder(rootNode: rootNode.right)
         }
     }
+    
     // 非递归前序遍历
     func preOrderNR() {
         var temp = Stack<Node>()
@@ -95,7 +96,7 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
     func getMin() -> Node? {
         if let root = root {
             return getMin(rootNode: root)
-        }else{
+        } else {
             return nil
         }
     }
@@ -103,7 +104,7 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
     func getMin(rootNode: Node) -> Node {
         if let rootNodeL = rootNode.left {
             return getMin(rootNode: rootNodeL)
-        }else{
+        } else {
             return rootNode
         }
     }
@@ -122,16 +123,16 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
             size -= 1
             return rootNodeR
         }
-        rootNode?.left = removeMin(rootNode:rootNode?.left)
+        rootNode?.left = removeMin(rootNode: rootNode?.left)
         return rootNode
     }
     
     @discardableResult
     func removeMax() -> Node? {
-        //get max 的作用是为了返回 remove 的值
-        //否则在下一步操作中 最大值会被设为 nil
+        // get max 的作用是为了返回 remove 的值
+        // 否则在下一步操作中 最大值会被设为 nil
         let maxNode = getMax()
-        //这里的递归是为了调整二叉树结构，在删除了最大值之后，最大值的左子树要调整到最大值的父节点，作为它的右子树
+        // 这里的递归是为了调整二叉树结构，在删除了最大值之后，最大值的左子树要调整到最大值的父节点，作为它的右子树
         root = removeMax(rootNode: root)
         
         return maxNode
@@ -145,14 +146,14 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
             size -= 1
             return leftNode
         }
-        rootNode?.right = removeMax(rootNode:rootNode?.right)
+        rootNode?.right = removeMax(rootNode: rootNode?.right)
         return rootNode
     }
     
     func getMax() -> Node? {
         if let root = root {
             return getMax(rootNode: root)
-        }else{
+        } else {
             return nil
         }
     }
@@ -160,7 +161,7 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
     func getMax(rootNode: Node) -> Node {
         if let rootNodeR = rootNode.right {
             return getMax(rootNode: rootNodeR)
-        }else{
+        } else {
             return rootNode
         }
     }
@@ -169,16 +170,16 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
         root = remove(root: root, value: value)
     }
     
-    private func remove(root: Node?, value: T) -> Node?{
+    private func remove(root: Node?, value: T) -> Node? {
         if let root = root {
-            //仅有一个节点
+            // 仅有一个节点
             if value > root.data {
                 root.right = remove(root: root.right, value: value)
                 return root
-            }else if value < root.data {
+            } else if value < root.data {
                 root.left = remove(root: root.left, value: value)
                 return root
-            }else{
+            } else {
                 // value == root.data
                 if root.left == nil {
                     let nodeR = root.right
@@ -187,7 +188,7 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
                     return nodeR
                 }
                 
-                if root.right == nil{
+                if root.right == nil {
                     let nodeL = root.left
                     root.left = nil
                     size -= 1
@@ -204,14 +205,13 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
                 return minInRightTree
             }
             
-        }else{
+        } else {
             return nil
         }
     }
     
-    class Node:Comparable, CustomDebugStringConvertible {
-        
-        var data:T
+    class Node: Comparable, CustomDebugStringConvertible {
+        var data: T
         var left: Node?
         var right: Node?
         
@@ -223,7 +223,7 @@ class BST<T: Comparable&CustomDebugStringConvertible>: CustomDebugStringConverti
             return lhs.data == rhs.data
         }
         
-        var debugDescription: String{
+        var debugDescription: String {
             return "\(data.debugDescription) left-\(String(describing: left?.data)) right-\(String(describing: right?.data))"
         }
         
