@@ -13,19 +13,23 @@ extension Int: CustomDebugStringConvertible  {
     }
 }
 
-var list = DataSource.createRandomIntList(count: 10000, min: 0, max: 100)
+var list = DataSource.createNealySortedList(count: 10000, shufflePercent: 0.1)
+var newList = DataSource.createRandomIntList(count: 10000, min: 0, max: 100)
 //let time = DataSource.timeit(action: {
 //    list = MergeSort.mergeBottomUp(list: list)
 //        list = MergeSort.merge(list: list)
 //    list = list.sorted()
 //}, count: 20)
 DataSource.timethem(first: {
-    list = InsertSort.sort(data: list)
-    print("\(DataSource.isValid(list: list, compare: <=))")
+//    list = InsertSort.sort(data: list)
+//    QuickSort.sort(data: &list, lower: 0, higher: list.count - 1)
+//    assert(DataSource.isValid(list: list, compare: <=), "Error")
+    
 }, last: {
-    list = MergeSort.mergeBottomUp(list: list)
-    print("\(DataSource.isValid(list: list, compare: <=))")
-}, count: 20)
+    
+    QuickSort.sort3Ways(data: &list, lower: 0, higher: list.count-1)
+//    assert(DataSource.isValid(list: list, compare: <=), "Error")
+}, count: 2)
 
 
 
