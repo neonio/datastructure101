@@ -10,6 +10,7 @@ import Foundation
 typealias ComparableElement = CustomDebugStringConvertible&Comparable
 typealias EquableElement = CustomDebugStringConvertible&Equatable
 typealias ReadableElement = CustomDebugStringConvertible
+typealias HashableElement = CustomDebugStringConvertible&Hashable
 class LinkedListMap<K: EquableElement, V:ReadableElement>: ReadableElement {
     var dummyHead: Node<K,V> = Node(key: nil, value:nil, next: nil)
     private(set) var size:Int = 0

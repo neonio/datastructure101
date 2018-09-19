@@ -13,7 +13,7 @@ extension Int: CustomDebugStringConvertible  {
     }
 }
 
-var list = DataSource.createNealySortedList(count: 10000, shufflePercent: 0.1)
+var list = DataSource.createNealySortedList(count: 100, shufflePercent: 0.1)
 var newList = DataSource.createRandomIntList(count: 10000, min: 0, max: 100)
 //let time = DataSource.timeit(action: {
 //    list = MergeSort.mergeBottomUp(list: list)
@@ -27,9 +27,13 @@ DataSource.timethem(first: {
     
 }, last: {
     
-    QuickSort.sort3Ways(data: &list, lower: 0, higher: list.count-1)
+//    QuickSort.sort3Ways(data: &list, lower: 0, higher: list.count-1)
 //    assert(DataSource.isValid(list: list, compare: <=), "Error")
 }, count: 2)
+
+Exec().exec()
+
+
 
 
 

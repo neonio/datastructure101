@@ -92,6 +92,24 @@ class BST<T: Comparable & CustomDebugStringConvertible>: CustomDebugStringConver
         }
     }
     
+    // 层序遍历
+    func levelOrder() {
+        guard let root = root else { return }
+        var queue = Queue<Node>()
+        queue.enqueue(elem: root)
+        while !queue.isEmpty() {
+            let headNode: Node = queue.dequeue()!
+            if let leftNode = headNode.left {
+                queue.enqueue(elem: leftNode)
+            }
+            if let rightNode = headNode.right {
+                queue.enqueue(elem: rightNode)
+            }
+            print(headNode.debugDescription)
+        }
+    }
+    
+    
     // 前序遍历
     func getMin() -> Node? {
         if let root = root {

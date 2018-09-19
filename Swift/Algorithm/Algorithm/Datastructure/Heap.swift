@@ -12,7 +12,7 @@ class Heap<T: ComparableElement>: CustomDebugStringConvertible {
         return data.debugDescription
     }
     
-    private var data: [T] = []
+    private(set) var data: [T] = []
     var size: Int {
         return data.count
     }
@@ -23,12 +23,29 @@ class Heap<T: ComparableElement>: CustomDebugStringConvertible {
     
     init() {}
     
+    func situSort() {
+        // 由于我们是存储在数组里面的，这时候想要对数组排序的话
+        for i in stride(from: size - 1, through: 1, by: -1) {
+            data.swapAt(0, i)
+            // 到当前处理的 heap max index 截止
+            shiftDown(index: 0, until: i)
+        }
+    }
+    
+    func isValid(heapArray:[T]) -> Bool {
+        for i in 0..<parentIndex(nodeIndex: (size - 1)) {
+            let result = heapArray[i] < heapArray[leftChildIndex(nodeIndex: i)] || heapArray[i] < heapArray[rightChildindex(nodeIndex: i)]
+            assert(!result, "error")
+        }
+        return true
+    }
+    
     convenience init(list: [T]) {
         self.init()
         self.data = list
         let lastNotLeafElementIndex = parentIndex(nodeIndex: list.count - 1)
         for i in 0...lastNotLeafElementIndex {
-            siftDown(index: lastNotLeafElementIndex - i)
+            shiftDown(index: lastNotLeafElementIndex - i, until: data.count)
         }
     }
     
@@ -46,10 +63,10 @@ class Heap<T: ComparableElement>: CustomDebugStringConvertible {
     
     func add(element: T) {
         data.append(element)
-        siftUp(index: data.count - 1)
+        shiftUp(index: data.count - 1)
     }
     
-    func siftUp(index: Int) {
+    func shiftUp(index: Int) {
         var currentIndex = index
         while currentIndex > 0 && data[parentIndex(nodeIndex: currentIndex)] < data[currentIndex] {
             data.swapAt(parentIndex(nodeIndex: currentIndex), currentIndex)
@@ -68,22 +85,22 @@ class Heap<T: ComparableElement>: CustomDebugStringConvertible {
         if let maxElement = findMax() {
             data.swapAt(0, data.count - 1)
             data.removeLast()
-            siftDown(index: 0)
+            shiftDown(index: 0, until: data.count)
             return maxElement
         } else {
             return nil
         }
     }
     
-    func siftDown(index: Int) {
+    func shiftDown(index: Int, until:Int) {
         var selectedIndex = index
         // 这个判断条件是当前 index 不是叶子节点
-        while leftChildIndex(nodeIndex: selectedIndex) < data.count {
+        while leftChildIndex(nodeIndex: selectedIndex) < until {
             let leftElementIndex = leftChildIndex(nodeIndex: selectedIndex)
             let rightElementIndex = leftElementIndex + 1
             var maxChildElementIndex = leftElementIndex
             // 这个判断条件是当前有右节点
-            if rightElementIndex < data.count && data[rightElementIndex] > data[leftElementIndex] {
+            if rightElementIndex < until && data[rightElementIndex] > data[leftElementIndex] {
                 maxChildElementIndex = rightElementIndex
             }
             if data[selectedIndex] >= data[maxChildElementIndex] {
@@ -99,7 +116,9 @@ class Heap<T: ComparableElement>: CustomDebugStringConvertible {
             return nil
         }
         data[0] = elem
-        siftDown(index: 0)
+        shiftDown(index: 0, until: data.count)
         return maxElem
     }
+    
+
 }
