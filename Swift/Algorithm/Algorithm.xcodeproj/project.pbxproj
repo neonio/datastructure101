@@ -20,6 +20,12 @@
 		29186AC0214969160098D027 /* 303  Range Sum Query - Immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186ABF214969160098D027 /* 303  Range Sum Query - Immutable.swift */; };
 		29186AC22149F5710098D027 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AC12149F5710098D027 /* Trie.swift */; };
 		29186AC4214A02B80098D027 /* 208. Implement Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29186AC3214A02B80098D027 /* 208. Implement Trie.swift */; };
+		29322189215E66B5008A80C7 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322188215E66B5008A80C7 /* 104. Maximum Depth of Binary Tree.swift */; };
+		2932218B215E6848008A80C7 /* 226. Invert Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932218A215E6848008A80C7 /* 226. Invert Binary Tree.swift */; };
+		2932218D215E697D008A80C7 /* 100. Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932218C215E697D008A80C7 /* 100. Same Tree.swift */; };
+		2932218F215E6AB8008A80C7 /* 101. Symmetric Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932218E215E6AB8008A80C7 /* 101. Symmetric Tree.swift */; };
+		29322191215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322190215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift */; };
+		29322193215E6E04008A80C7 /* 110. Balanced Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322192215E6E04008A80C7 /* 110. Balanced Binary Tree.swift */; };
 		2945507E2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945507D2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift */; };
 		294550802151D90300A1DA23 /* 11. Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945507F2151D90300A1DA23 /* 11. Container With Most Water.swift */; };
 		2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DE78214135B200D4F760 /* 86Partition List.swift */; };
@@ -38,7 +44,7 @@
 		29A7F89A213FABDB00A74907 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F897213FABDB00A74907 /* Stack.swift */; };
 		29A7F89B213FABDB00A74907 /* CircularQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F898213FABDB00A74907 /* CircularQueue.swift */; };
 		29A7F89C213FABDB00A74907 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F899213FABDB00A74907 /* Queue.swift */; };
-		29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */; };
+		29A7F89F213FAC0500A74907 /* 20. Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F89E213FAC0500A74907 /* 20. Valid Parentheses.swift */; };
 		29A7F8A1213FAC2E00A74907 /* 203Remove Linked List Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */; };
 		29A7F8A3213FC44100A74907 /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F8A2213FC44100A74907 /* BST.swift */; };
 		29CF97EB214D41A60087B12C /* AVLMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF97EA214D41A60087B12C /* AVLMap.swift */; };
@@ -84,6 +90,12 @@
 		29186ABF214969160098D027 /* 303  Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303  Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		29186AC12149F5710098D027 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		29186AC3214A02B80098D027 /* 208. Implement Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208. Implement Trie.swift"; sourceTree = "<group>"; };
+		29322188215E66B5008A80C7 /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
+		2932218A215E6848008A80C7 /* 226. Invert Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226. Invert Binary Tree.swift"; sourceTree = "<group>"; };
+		2932218C215E697D008A80C7 /* 100. Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
+		2932218E215E6AB8008A80C7 /* 101. Symmetric Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101. Symmetric Tree.swift"; sourceTree = "<group>"; };
+		29322190215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "222. Count Complete Tree Nodes.swift"; sourceTree = "<group>"; };
+		29322192215E6E04008A80C7 /* 110. Balanced Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110. Balanced Binary Tree.swift"; sourceTree = "<group>"; };
 		2945507D2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345. Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
 		2945507F2151D90300A1DA23 /* 11. Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. Container With Most Water.swift"; sourceTree = "<group>"; };
 		2948DE78214135B200D4F760 /* 86Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86Partition List.swift"; sourceTree = "<group>"; };
@@ -103,7 +115,7 @@
 		29A7F897213FABDB00A74907 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = ../../../Datastructure.playground/Sources/Stack.swift; sourceTree = "<group>"; };
 		29A7F898213FABDB00A74907 /* CircularQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularQueue.swift; path = ../../../Datastructure.playground/Sources/CircularQueue.swift; sourceTree = "<group>"; };
 		29A7F899213FABDB00A74907 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = ../../../Datastructure.playground/Sources/Queue.swift; sourceTree = "<group>"; };
-		29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20Valid Parentheses.swift"; sourceTree = "<group>"; };
+		29A7F89E213FAC0500A74907 /* 20. Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203Remove Linked List Elements.swift"; sourceTree = "<group>"; };
 		29A7F8A2213FC44100A74907 /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		29CF97EA214D41A60087B12C /* AVLMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLMap.swift; sourceTree = "<group>"; };
@@ -204,7 +216,7 @@
 		29A7F89D213FABE900A74907 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				29A7F89E213FAC0500A74907 /* 20Valid Parentheses.swift */,
+				29A7F89E213FAC0500A74907 /* 20. Valid Parentheses.swift */,
 				29A7F8A0213FAC2E00A74907 /* 203Remove Linked List Elements.swift */,
 				29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */,
 				2948DE78214135B200D4F760 /* 86Partition List.swift */,
@@ -226,6 +238,12 @@
 				29D24B132150E07100E1AC30 /* 125. Valid Palindrome.swift */,
 				2945507D2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift */,
 				2945507F2151D90300A1DA23 /* 11. Container With Most Water.swift */,
+				29322188215E66B5008A80C7 /* 104. Maximum Depth of Binary Tree.swift */,
+				2932218A215E6848008A80C7 /* 226. Invert Binary Tree.swift */,
+				2932218C215E697D008A80C7 /* 100. Same Tree.swift */,
+				2932218E215E6AB8008A80C7 /* 101. Symmetric Tree.swift */,
+				29322190215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift */,
+				29322192215E6E04008A80C7 /* 110. Balanced Binary Tree.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -287,11 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2932218D215E697D008A80C7 /* 100. Same Tree.swift in Sources */,
 				29D24B142150E07100E1AC30 /* 125. Valid Palindrome.swift in Sources */,
 				29A3B4B8214E9A7000044710 /* InsertSort.swift in Sources */,
 				29E1AB942140C352000C6F06 /* BSTSet.swift in Sources */,
 				29613728214CFA1100814106 /* AVLTree.swift in Sources */,
 				29A7F89B213FABDB00A74907 /* CircularQueue.swift in Sources */,
+				2932218F215E6AB8008A80C7 /* 101. Symmetric Tree.swift in Sources */,
 				29A3B4BA214EA80A00044710 /* MergeSort.swift in Sources */,
 				29A7F89C213FABDB00A74907 /* Queue.swift in Sources */,
 				29A3B4B6214E8FC500044710 /* SelectionSort.swift in Sources */,
@@ -300,6 +320,7 @@
 				294550802151D90300A1DA23 /* 11. Container With Most Water.swift in Sources */,
 				29A7F89A213FABDB00A74907 /* Stack.swift in Sources */,
 				29D24B0621509D7400E1AC30 /* 27. Remove Element.swift in Sources */,
+				2932218B215E6848008A80C7 /* 226. Invert Binary Tree.swift in Sources */,
 				29186AC22149F5710098D027 /* Trie.swift in Sources */,
 				29CF97ED214D5D9A0087B12C /* 387. First Unique Character in a String.swift in Sources */,
 				29186ABA2149446E0098D027 /* PriorityQueue.swift in Sources */,
@@ -309,11 +330,12 @@
 				297462662147425B00E0482A /* LinkedListSet.swift in Sources */,
 				29F807BC214CB1A90023DABF /* Union.swift in Sources */,
 				29D24B0C2150A23300E1AC30 /* 75. Sort Colors.swift in Sources */,
-				29A7F89F213FAC0500A74907 /* 20Valid Parentheses.swift in Sources */,
+				29A7F89F213FAC0500A74907 /* 20. Valid Parentheses.swift in Sources */,
 				29186ABE21495AD80098D027 /* SegmentTree.swift in Sources */,
 				2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */,
 				29186AB82149108E0098D027 /* Heap.swift in Sources */,
 				29D24B0A2150A01400E1AC30 /* 80. Remove Duplicates from Sorted Array II.swift in Sources */,
+				29322193215E6E04008A80C7 /* 110. Balanced Binary Tree.swift in Sources */,
 				29D24B0821509EEF00E1AC30 /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 				29D24B0421509B1100E1AC30 /* 283. Move Zeroes.swift in Sources */,
 				29D24B102150AEE200E1AC30 /* 215. Kth Largest Element in an Array.swift in Sources */,
@@ -322,6 +344,7 @@
 				29A7F8A3213FC44100A74907 /* BST.swift in Sources */,
 				29A3B4B4214E8DD900044710 /* DataSource.swift in Sources */,
 				2948DE7B2141408900D4F760 /* 71Simplify Path.swift in Sources */,
+				29322191215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift in Sources */,
 				29186ABC214948C60098D027 /* 347 Top K Frequent Elements.swift in Sources */,
 				2945507E2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift in Sources */,
 				29D24B0E2150A64500E1AC30 /* 88. Merge Sorted Array.swift in Sources */,
@@ -335,6 +358,7 @@
 				297462682147431300E0482A /* LinkedList.swift in Sources */,
 				29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */,
 				290D5B28214FE20600D18054 /* ListGraph.swift in Sources */,
+				29322189215E66B5008A80C7 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				29186AC4214A02B80098D027 /* 208. Implement Trie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
