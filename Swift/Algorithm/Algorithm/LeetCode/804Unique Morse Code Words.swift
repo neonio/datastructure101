@@ -9,27 +9,29 @@
 import Foundation
 
 
-fileprivate class Solution {
-    let alpha:[String] = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
-    let charSet:[Character] = "abcdefghijklmnopqrstuvwxyz".map { (char) -> Character in
-        return char
-    }
-    lazy var result: [Character: String] = {
-        var result:[Character: String] = [:]
-        for (index, value) in charSet.enumerated() {
-            result[value] = alpha[index]
+class P804 {
+    class Solution {
+        let alpha:[String] = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+        let charSet:[Character] = "abcdefghijklmnopqrstuvwxyz".map { (char) -> Character in
+            return char
         }
-        return result
-    }()
-
-    func uniqueMorseRepresentations(_ words: [String]) -> Int {
-        let convertedWordList = words.map { (word) -> String in
-            let convertedWord = word.map({ (char) -> String in
-                return result[char]!
-            })
-            return convertedWord.joined()
+        lazy var result: [Character: String] = {
+            var result:[Character: String] = [:]
+            for (index, value) in charSet.enumerated() {
+                result[value] = alpha[index]
+            }
+            return result
+        }()
+        
+        func uniqueMorseRepresentations(_ words: [String]) -> Int {
+            let convertedWordList = words.map { (word) -> String in
+                let convertedWord = word.map({ (char) -> String in
+                    return result[char]!
+                })
+                return convertedWord.joined()
+            }
+            return Set(convertedWordList).count
         }
-        return Set(convertedWordList).count
     }
 }
 

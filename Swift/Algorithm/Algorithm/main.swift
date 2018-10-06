@@ -20,20 +20,6 @@ var newList = DataSource.createRandomIntList(count: 10000, min: 0, max: 100)
 //        list = MergeSort.merge(list: list)
 //    list = list.sorted()
 //}, count: 20)
-DataSource.timethem(first: {
-//    list = InsertSort.sort(data: list)
-//    QuickSort.sort(data: &list, lower: 0, higher: list.count - 1)
-//    assert(DataSource.isValid(list: list, compare: <=), "Error")
-    
-}, last: {
-    
-//    QuickSort.sort3Ways(data: &list, lower: 0, higher: list.count-1)
-//    assert(DataSource.isValid(list: list, compare: <=), "Error")
-}, count: 2)
 
-Exec().exec()
-
-
-
-
-
+let result = P108.Solution().sortedArrayToBST([-10,-3,0,5,9])
+print("\(result?.toList())")

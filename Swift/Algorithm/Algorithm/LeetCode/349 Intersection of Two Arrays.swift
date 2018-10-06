@@ -7,9 +7,12 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func intersection(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-        let a = Set(nums1)
-        return Array(a.intersection(nums2))
+class P349 {
+    class Solution {
+        func intersection(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+            let a = Set(nums1)
+            return Array(a.intersection(nums2))
+        }
     }
+
 }

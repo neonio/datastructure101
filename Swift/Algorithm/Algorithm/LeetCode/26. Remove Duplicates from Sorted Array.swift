@@ -7,19 +7,22 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func removeDuplicates(_ nums: inout [Int]) -> Int {
-        var numSet = Set<Int>()
-        var setCount = 0
-        var result:[Int] = []
-        for num in nums {
-            numSet.insert(num)
-            if setCount != numSet.count {
-                setCount += 1
-                result.append(num)
+class P26 {
+    class Solution {
+        func removeDuplicates(_ nums: inout [Int]) -> Int {
+            var numSet = Set<Int>()
+            var setCount = 0
+            var result:[Int] = []
+            for num in nums {
+                numSet.insert(num)
+                if setCount != numSet.count {
+                    setCount += 1
+                    result.append(num)
+                }
             }
+            nums = result
+            return setCount
         }
-        nums = result
-        return setCount
     }
+
 }

@@ -8,11 +8,11 @@
 
 import Foundation
 class MergeSort{
-    static func merge<T:ComparableElement>(list:[T]) ->[T] {
+    static func sort<T:ComparableElement>(list:[T]) ->[T] {
         guard list.count > 1 else {return list}
         let mid = list.count/2
-        let leftArray = merge(list: Array(list[0..<mid]))
-        let rightArray = merge(list: Array(list[mid..<list.count]))
+        let leftArray = sort(list: Array(list[0..<mid]))
+        let rightArray = sort(list: Array(list[mid..<list.count]))
         assert(list.count == (leftArray.count + rightArray.count), "error")
         return merge(leftList: leftArray, rightList: rightArray)
     }
@@ -69,7 +69,7 @@ class MergeSort{
         while initSize <= list.count {
             var index = 0
             while index + initSize < list.count {
-                newList = MergeSort.merge(list: Array(list[(index + initSize - 1)..<(min(list.count-1,index + initSize * 2 - 1))]))
+                newList = MergeSort.sort(list: Array(list[(index + initSize - 1)..<(min(list.count-1,index + initSize * 2 - 1))]))
                 index += initSize * 2
             }
             

@@ -21,7 +21,8 @@ public struct Queue<T:Equatable&CustomDebugStringConvertible>:CustomDebugStringC
     
     @discardableResult
     public mutating func dequeue() -> T? {
-        return data.remove(at: 0)
+        guard !isEmpty() else { return nil}
+        return data.removeFirst()
     }
     
     public func isEmpty() -> Bool {

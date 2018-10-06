@@ -7,25 +7,27 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-        var a:[Int:Int] = [:]
-        for item in nums1 {
-            let value = (a[item] ?? 0) + 1
-            a[item] = value
-        }
-        var result:[Int] = []
-        for item in nums2 {
-            if let aItem = a[item] {
-                if aItem > 1 {
-                    result.append(item)
-                    a[item] = aItem - 1
-                }else{
-                    a.removeValue(forKey: item)
+class P350 {
+    class Solution {
+        func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+            var a:[Int:Int] = [:]
+            for item in nums1 {
+                let value = (a[item] ?? 0) + 1
+                a[item] = value
+            }
+            var result:[Int] = []
+            for item in nums2 {
+                if let aItem = a[item] {
+                    if aItem > 1 {
+                        result.append(item)
+                        a[item] = aItem - 1
+                    }else{
+                        a.removeValue(forKey: item)
+                    }
                 }
             }
+            
+            return result
         }
-        
-        return result
     }
 }

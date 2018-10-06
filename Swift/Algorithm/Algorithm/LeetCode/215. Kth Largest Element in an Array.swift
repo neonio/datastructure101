@@ -7,12 +7,14 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
-        let newNums = nums
-        return newNums.sorted(by: >)[k - 1]
+class P215 {
+    class Solution {
+        func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
+            let newNums = nums
+            return newNums.sorted(by: >)[k - 1]
+        }
+        
     }
 
 }
-
 

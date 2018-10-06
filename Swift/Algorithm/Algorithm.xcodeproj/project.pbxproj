@@ -26,6 +26,13 @@
 		2932218F215E6AB8008A80C7 /* 101. Symmetric Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932218E215E6AB8008A80C7 /* 101. Symmetric Tree.swift */; };
 		29322191215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322190215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift */; };
 		29322193215E6E04008A80C7 /* 110. Balanced Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322192215E6E04008A80C7 /* 110. Balanced Binary Tree.swift */; };
+		29322195215E6FFD008A80C7 /* 112. Path Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322194215E6FFD008A80C7 /* 112. Path Sum.swift */; };
+		29322197215E72B3008A80C7 /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322196215E72B3008A80C7 /* 111. Minimum Depth of Binary Tree.swift */; };
+		29322199215E7685008A80C7 /* 404. Sum of Left Leaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29322198215E7685008A80C7 /* 404. Sum of Left Leaves.swift */; };
+		2932219B215E7AB3008A80C7 /* 257. Binary Tree Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932219A215E7AB3008A80C7 /* 257. Binary Tree Paths.swift */; };
+		2932219F215E833C008A80C7 /* 94. Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932219E215E833C008A80C7 /* 94. Binary Tree Inorder Traversal.swift */; };
+		293221B4215F46F9008A80C7 /* 232. Implement Queue using Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293221B3215F46F9008A80C7 /* 232. Implement Queue using Stacks.swift */; };
+		293221B6215F4AEC008A80C7 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293221B5215F4AEC008A80C7 /* 102. Binary Tree Level Order Traversal.swift */; };
 		2945507E2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945507D2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift */; };
 		294550802151D90300A1DA23 /* 11. Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945507F2151D90300A1DA23 /* 11. Container With Most Water.swift */; };
 		2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DE78214135B200D4F760 /* 86Partition List.swift */; };
@@ -61,6 +68,14 @@
 		29E1AB942140C352000C6F06 /* BSTSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB932140C352000C6F06 /* BSTSet.swift */; };
 		29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */; };
 		29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */; };
+		29EB8DE72168D55400FF865E /* 150. Evaluate Reverse Polish Notation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB8DE62168D55400FF865E /* 150. Evaluate Reverse Polish Notation.swift */; };
+		29EB8DE92168DC1200FF865E /* 145. Binary Tree Postorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB8DE82168DC1200FF865E /* 145. Binary Tree Postorder Traversal.swift */; };
+		29EB8DEB2168DC2F00FF865E /* PreDefinedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB8DEA2168DC2F00FF865E /* PreDefinedTree.swift */; };
+		29ED19C42168E10C003D01D8 /* 144. Binary Tree Preorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED19C32168E10C003D01D8 /* 144. Binary Tree Preorder Traversal.swift */; };
+		29ED19C62168E6E2003D01D8 /* 107. Binary Tree Level Order Traversal II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED19C52168E6E2003D01D8 /* 107. Binary Tree Level Order Traversal II.swift */; };
+		29ED19C92168F2D2003D01D8 /* 108. Convert Sorted Array to Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED19C82168F2D2003D01D8 /* 108. Convert Sorted Array to Binary Search Tree.swift */; };
+		29ED19CB21690140003D01D8 /* 103. Binary Tree Zigzag Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED19CA21690140003D01D8 /* 103. Binary Tree Zigzag Level Order Traversal.swift */; };
+		29ED19CD21690945003D01D8 /* 199. Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED19CC21690945003D01D8 /* 199. Binary Tree Right Side View.swift */; };
 		29F807BC214CB1A90023DABF /* Union.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F807BB214CB1A90023DABF /* Union.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +111,13 @@
 		2932218E215E6AB8008A80C7 /* 101. Symmetric Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101. Symmetric Tree.swift"; sourceTree = "<group>"; };
 		29322190215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "222. Count Complete Tree Nodes.swift"; sourceTree = "<group>"; };
 		29322192215E6E04008A80C7 /* 110. Balanced Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110. Balanced Binary Tree.swift"; sourceTree = "<group>"; };
+		29322194215E6FFD008A80C7 /* 112. Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112. Path Sum.swift"; sourceTree = "<group>"; };
+		29322196215E72B3008A80C7 /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
+		29322198215E7685008A80C7 /* 404. Sum of Left Leaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "404. Sum of Left Leaves.swift"; sourceTree = "<group>"; };
+		2932219A215E7AB3008A80C7 /* 257. Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257. Binary Tree Paths.swift"; sourceTree = "<group>"; };
+		2932219E215E833C008A80C7 /* 94. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
+		293221B3215F46F9008A80C7 /* 232. Implement Queue using Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. Implement Queue using Stacks.swift"; sourceTree = "<group>"; };
+		293221B5215F4AEC008A80C7 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		2945507D2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345. Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
 		2945507F2151D90300A1DA23 /* 11. Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. Container With Most Water.swift"; sourceTree = "<group>"; };
 		2948DE78214135B200D4F760 /* 86Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86Partition List.swift"; sourceTree = "<group>"; };
@@ -132,6 +154,14 @@
 		29E1AB932140C352000C6F06 /* BSTSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTSet.swift; sourceTree = "<group>"; };
 		29E1AB952140D46E000C6F06 /* 804Unique Morse Code Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "804Unique Morse Code Words.swift"; sourceTree = "<group>"; };
 		29E1AB972140DAAA000C6F06 /* LinkedListMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListMap.swift; sourceTree = "<group>"; };
+		29EB8DE62168D55400FF865E /* 150. Evaluate Reverse Polish Notation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150. Evaluate Reverse Polish Notation.swift"; sourceTree = "<group>"; };
+		29EB8DE82168DC1200FF865E /* 145. Binary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. Binary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
+		29EB8DEA2168DC2F00FF865E /* PreDefinedTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreDefinedTree.swift; sourceTree = "<group>"; };
+		29ED19C32168E10C003D01D8 /* 144. Binary Tree Preorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144. Binary Tree Preorder Traversal.swift"; sourceTree = "<group>"; };
+		29ED19C52168E6E2003D01D8 /* 107. Binary Tree Level Order Traversal II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "107. Binary Tree Level Order Traversal II.swift"; sourceTree = "<group>"; };
+		29ED19C82168F2D2003D01D8 /* 108. Convert Sorted Array to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108. Convert Sorted Array to Binary Search Tree.swift"; sourceTree = "<group>"; };
+		29ED19CA21690140003D01D8 /* 103. Binary Tree Zigzag Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "103. Binary Tree Zigzag Level Order Traversal.swift"; sourceTree = "<group>"; };
+		29ED19CC21690945003D01D8 /* 199. Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199. Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
 		29F807BB214CB1A90023DABF /* Union.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Union.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,6 +274,21 @@
 				2932218E215E6AB8008A80C7 /* 101. Symmetric Tree.swift */,
 				29322190215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift */,
 				29322192215E6E04008A80C7 /* 110. Balanced Binary Tree.swift */,
+				29322194215E6FFD008A80C7 /* 112. Path Sum.swift */,
+				29322196215E72B3008A80C7 /* 111. Minimum Depth of Binary Tree.swift */,
+				29322198215E7685008A80C7 /* 404. Sum of Left Leaves.swift */,
+				2932219A215E7AB3008A80C7 /* 257. Binary Tree Paths.swift */,
+				2932219E215E833C008A80C7 /* 94. Binary Tree Inorder Traversal.swift */,
+				293221B3215F46F9008A80C7 /* 232. Implement Queue using Stacks.swift */,
+				293221B5215F4AEC008A80C7 /* 102. Binary Tree Level Order Traversal.swift */,
+				29EB8DE62168D55400FF865E /* 150. Evaluate Reverse Polish Notation.swift */,
+				29EB8DE82168DC1200FF865E /* 145. Binary Tree Postorder Traversal.swift */,
+				29EB8DEA2168DC2F00FF865E /* PreDefinedTree.swift */,
+				29ED19C32168E10C003D01D8 /* 144. Binary Tree Preorder Traversal.swift */,
+				29ED19C52168E6E2003D01D8 /* 107. Binary Tree Level Order Traversal II.swift */,
+				29ED19C82168F2D2003D01D8 /* 108. Convert Sorted Array to Binary Search Tree.swift */,
+				29ED19CA21690140003D01D8 /* 103. Binary Tree Zigzag Level Order Traversal.swift */,
+				29ED19CC21690945003D01D8 /* 199. Binary Tree Right Side View.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -320,6 +365,7 @@
 				294550802151D90300A1DA23 /* 11. Container With Most Water.swift in Sources */,
 				29A7F89A213FABDB00A74907 /* Stack.swift in Sources */,
 				29D24B0621509D7400E1AC30 /* 27. Remove Element.swift in Sources */,
+				293221B6215F4AEC008A80C7 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				2932218B215E6848008A80C7 /* 226. Invert Binary Tree.swift in Sources */,
 				29186AC22149F5710098D027 /* Trie.swift in Sources */,
 				29CF97ED214D5D9A0087B12C /* 387. First Unique Character in a String.swift in Sources */,
@@ -329,17 +375,23 @@
 				29A7F894213F9FF900A74907 /* LinkedListQueue.swift in Sources */,
 				297462662147425B00E0482A /* LinkedListSet.swift in Sources */,
 				29F807BC214CB1A90023DABF /* Union.swift in Sources */,
+				2932219B215E7AB3008A80C7 /* 257. Binary Tree Paths.swift in Sources */,
+				2932219F215E833C008A80C7 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				29D24B0C2150A23300E1AC30 /* 75. Sort Colors.swift in Sources */,
 				29A7F89F213FAC0500A74907 /* 20. Valid Parentheses.swift in Sources */,
+				293221B4215F46F9008A80C7 /* 232. Implement Queue using Stacks.swift in Sources */,
 				29186ABE21495AD80098D027 /* SegmentTree.swift in Sources */,
 				2948DE79214135B200D4F760 /* 86Partition List.swift in Sources */,
 				29186AB82149108E0098D027 /* Heap.swift in Sources */,
 				29D24B0A2150A01400E1AC30 /* 80. Remove Duplicates from Sorted Array II.swift in Sources */,
+				29ED19C92168F2D2003D01D8 /* 108. Convert Sorted Array to Binary Search Tree.swift in Sources */,
+				29EB8DEB2168DC2F00FF865E /* PreDefinedTree.swift in Sources */,
 				29322193215E6E04008A80C7 /* 110. Balanced Binary Tree.swift in Sources */,
 				29D24B0821509EEF00E1AC30 /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 				29D24B0421509B1100E1AC30 /* 283. Move Zeroes.swift in Sources */,
 				29D24B102150AEE200E1AC30 /* 215. Kth Largest Element in an Array.swift in Sources */,
 				29A7F88C213F9FA600A74907 /* main.swift in Sources */,
+				29ED19CB21690140003D01D8 /* 103. Binary Tree Zigzag Level Order Traversal.swift in Sources */,
 				29186AB62148C1EC0098D027 /* 350Intersection of Two Arrays II.swift in Sources */,
 				29A7F8A3213FC44100A74907 /* BST.swift in Sources */,
 				29A3B4B4214E8DD900044710 /* DataSource.swift in Sources */,
@@ -347,19 +399,27 @@
 				29322191215E6CBE008A80C7 /* 222. Count Complete Tree Nodes.swift in Sources */,
 				29186ABC214948C60098D027 /* 347 Top K Frequent Elements.swift in Sources */,
 				2945507E2151CB9100A1DA23 /* 345. Reverse Vowels of a String.swift in Sources */,
+				29ED19C62168E6E2003D01D8 /* 107. Binary Tree Level Order Traversal II.swift in Sources */,
+				29322195215E6FFD008A80C7 /* 112. Path Sum.swift in Sources */,
 				29D24B0E2150A64500E1AC30 /* 88. Merge Sorted Array.swift in Sources */,
 				29E1AB962140D46E000C6F06 /* 804Unique Morse Code Words.swift in Sources */,
 				29186AC0214969160098D027 /* 303  Range Sum Query - Immutable.swift in Sources */,
+				29ED19C42168E10C003D01D8 /* 144. Binary Tree Preorder Traversal.swift in Sources */,
+				29EB8DE72168D55400FF865E /* 150. Evaluate Reverse Polish Notation.swift in Sources */,
 				29A7F896213FABC200A74907 /* Utils.swift in Sources */,
 				29D24B122150D6B800E1AC30 /* 167. Two Sum II - Input array is sorted.swift in Sources */,
 				290D5B24214F3C5700D18054 /* QuickSort.swift in Sources */,
 				290D5B26214FC94A00D18054 /* BSearch.swift in Sources */,
+				29322197215E72B3008A80C7 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
+				29EB8DE92168DC1200FF865E /* 145. Binary Tree Postorder Traversal.swift in Sources */,
 				29CF97EB214D41A60087B12C /* AVLMap.swift in Sources */,
 				297462682147431300E0482A /* LinkedList.swift in Sources */,
 				29E1AB982140DAAA000C6F06 /* LinkedListMap.swift in Sources */,
+				29ED19CD21690945003D01D8 /* 199. Binary Tree Right Side View.swift in Sources */,
 				290D5B28214FE20600D18054 /* ListGraph.swift in Sources */,
 				29322189215E66B5008A80C7 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				29186AC4214A02B80098D027 /* 208. Implement Trie.swift in Sources */,
+				29322199215E7685008A80C7 /* 404. Sum of Left Leaves.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

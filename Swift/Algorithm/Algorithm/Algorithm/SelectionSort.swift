@@ -7,6 +7,7 @@
 //
 
 import Foundation
+//O(n^2)
 class SelectionSort:SortProtocol{
     static func sort<T:ComparableElement>(data: [T]) -> [T]{
         var newList = data

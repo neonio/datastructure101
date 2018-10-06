@@ -7,35 +7,37 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func isPalindrome(_ s: String) -> Bool {
-        var l = 0
-        var r = s.count - 1
-        guard r >= 0 else {
-            return true
-        }
-        while l <= r {
-            let isLeftTargetChar = s[l].isTargetCharacter()
-            let isRightTargetChar = s[r].isTargetCharacter()
-            if isLeftTargetChar && isRightTargetChar {
-                if s[l].alphaEqual(oStr: s[r]) {
-                    l += 1
-                    r -= 1
+class P125 {
+    class Solution {
+        func isPalindrome(_ s: String) -> Bool {
+            var l = 0
+            var r = s.count - 1
+            guard r >= 0 else {
+                return true
+            }
+            while l <= r {
+                let isLeftTargetChar = s[l].isTargetCharacter()
+                let isRightTargetChar = s[r].isTargetCharacter()
+                if isLeftTargetChar && isRightTargetChar {
+                    if s[l].alphaEqual(oStr: s[r]) {
+                        l += 1
+                        r -= 1
+                    } else {
+                        return false
+                    }
                 } else {
-                    return false
-                }
-            } else {
-                if !isLeftTargetChar {
-                    l += 1
-                    continue
-                }
-                if !isRightTargetChar {
-                    r -= 1
-                    continue
+                    if !isLeftTargetChar {
+                        l += 1
+                        continue
+                    }
+                    if !isRightTargetChar {
+                        r -= 1
+                        continue
+                    }
                 }
             }
+            return true
         }
-        return true
     }
 }
 

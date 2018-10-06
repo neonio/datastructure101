@@ -9,27 +9,30 @@
 
 import Foundation
 
-fileprivate class Solution {
-    func isValid(_ s: String) -> Bool {
-        var stack = Stack<Character>()
-        for i in s {
-            switch i {
-            case "(","[","{":
-                stack.push(elem: i)
-            case ")","]","}":
-                guard let topElem = stack.peek() else { return false }
-                if (topElem, i) == ("[","]") ||
-                    (topElem, i) == ("{","}") ||
-                    (topElem, i) == ("(",")") {
-                    stack.pop()
-                }else{
+class P20 {
+    class Solution {
+        func isValid(_ s: String) -> Bool {
+            var stack = Stack<Character>()
+            for i in s {
+                switch i {
+                case "(","[","{":
+                    stack.push(elem: i)
+                case ")","]","}":
+                    guard let topElem = stack.peek() else { return false }
+                    if (topElem, i) == ("[","]") ||
+                        (topElem, i) == ("{","}") ||
+                        (topElem, i) == ("(",")") {
+                        stack.pop()
+                    }else{
+                        return false
+                    }
+                default:
                     return false
                 }
-            default:
-                return false
             }
+            return stack.isEmpty()
         }
-        return stack.isEmpty()
     }
-}
+    
 
+}

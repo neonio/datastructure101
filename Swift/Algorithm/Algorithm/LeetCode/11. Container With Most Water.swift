@@ -7,19 +7,22 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func maxArea(_ height: [Int]) -> Int {
-        var left:Int = 0
-        var right:Int = height.count - 1
-        var ans = 0
-        while left < right {
-            ans = max(ans, (right - left) * min(height[left], height[right]))
-            if height[left] < height[right] {
-                left += 1
-            }else{
-                right -= 1
+class P11 {
+    class Solution {
+        func maxArea(_ height: [Int]) -> Int {
+            var left:Int = 0
+            var right:Int = height.count - 1
+            var ans = 0
+            while left < right {
+                ans = max(ans, (right - left) * min(height[left], height[right]))
+                if height[left] < height[right] {
+                    left += 1
+                }else{
+                    right -= 1
+                }
             }
+            return ans
         }
-        return ans
     }
+
 }

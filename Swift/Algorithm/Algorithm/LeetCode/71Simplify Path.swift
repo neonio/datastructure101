@@ -7,27 +7,29 @@
 //
 
 import Foundation
-fileprivate class Solution {
-    func simplifyPath(_ path: String) -> String {
-        let path_comps = path.split(separator: "/")
-        var stack = Stack<String>()
-        for item in path_comps{
-            switch item {
-            case ".","":
-                continue
-            case "..":
-                if !stack.isEmpty() {
-                    stack.pop()
+class P71 {
+    class Solution {
+        func simplifyPath(_ path: String) -> String {
+            let path_comps = path.split(separator: "/")
+            var stack = Stack<String>()
+            for item in path_comps{
+                switch item {
+                case ".","":
+                    continue
+                case "..":
+                    if !stack.isEmpty() {
+                        stack.pop()
+                    }
+                default:
+                    stack.push(elem: String(item))
                 }
-            default:
-                stack.push(elem: String(item))
             }
+            var result = ""
+            while let str = stack.pop() {
+                result = str + "/" + result
+            }
+            result = "/" + result
+            return result
         }
-        var result = ""
-        while let str = stack.pop() {
-            result = str + "/" + result
-        }
-        result = "/" + result
-        return result
     }
 }
