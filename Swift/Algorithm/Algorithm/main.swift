@@ -21,5 +21,6 @@ var newList = DataSource.createRandomIntList(count: 10000, min: 0, max: 100)
 //    list = list.sorted()
 //}, count: 20)
 
-let result = P108.Solution().sortedArrayToBST([-10,-3,0,5,9])
-print("\(result?.toList())")
+let result = P279.Solution().numSquares(23)
+
+print(result)
